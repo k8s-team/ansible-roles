@@ -1,0 +1,7 @@
+---
+
+- include_tasks: disable.yml
+  when: state == 'absent'
+
+- include_tasks: purge.yml
+  when: state == 'purge'
