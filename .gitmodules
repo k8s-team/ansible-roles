@@ -4,3 +4,6 @@
 [submodule "swap"]
 	path = swap
 	url = git@github.com:k8s-team/ansible-role-swap.git
+[submodule "ansible-dependencies"]
+	path = ansible-dependencies
+	url = git@github.com:k8s-team/ansible-role-ansible-dependencies.git
