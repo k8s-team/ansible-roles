@@ -13,3 +13,6 @@
 [submodule "helm"]
 	path = helm
 	url = git@github.com:k8s-team/ansible-role-helm.git
+[submodule "metallb"]
+	path = metallb
+	url = git@github.com:k8s-team/ansible-role-metallb.git
