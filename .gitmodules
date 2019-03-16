@@ -7,3 +7,6 @@
 [submodule "ansible-dependencies"]
 	path = ansible-dependencies
 	url = git@github.com:k8s-team/ansible-role-ansible-dependencies.git
+[submodule "k8s-singlenode"]
+	path = k8s-singlenode
+	url = git@github.com:k8s-team/ansible-role-k8s-singlenode.git
