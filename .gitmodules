@@ -1,3 +1,6 @@
 [submodule "docker"]
 	path = docker
 	url = git@github.com:k8s-team/ansible-role-docker.git
+[submodule "swap"]
+	path = swap
+	url = git@github.com:k8s-team/ansible-role-swap.git
