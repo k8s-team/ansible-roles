@@ -1,0 +1,13 @@
+---
+
+- name: Disable swap.
+  shell: swapoff -a
+  run_once: true
+  when: ansible_swaptotal_mb > 0
+
+- name: Comment swap records in /etc/fstab
+  replace:
+    path: /etc/fstab
+    regexp: '^(^[^#].*swap.*$)$'
+    replace: '#\1'
+

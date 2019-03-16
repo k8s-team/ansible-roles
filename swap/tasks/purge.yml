@@ -1,0 +1,20 @@
+---
+
+- name: Disable swap.
+  shell: swapoff -a
+  run_once: true
+  when: ansible_swaptotal_mb > 0
+
+- name: Unmount swap
+  mount:
+    name: swap
+    fstype: swap
+    state: absent
+
+- name: Purge swap records in /etc/fstab
+  lineinfile:
+    path: /etc/fstab
+    regexp: '^.*swap.*$'
+    state: absent
+
+
