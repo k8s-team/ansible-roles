@@ -10,3 +10,6 @@
 [submodule "k8s-singlenode"]
 	path = k8s-singlenode
 	url = git@github.com:k8s-team/ansible-role-k8s-singlenode.git
+[submodule "helm"]
+	path = helm
+	url = git@github.com:k8s-team/ansible-role-helm.git
