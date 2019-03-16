@@ -16,3 +16,6 @@
 [submodule "metallb"]
 	path = metallb
 	url = git@github.com:k8s-team/ansible-role-metallb.git
+[submodule "ingress"]
+	path = ingress
+	url = git@github.com:k8s-team/ansible-role-ingress.git
