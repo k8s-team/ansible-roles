@@ -22,3 +22,6 @@
 [submodule "volumes"]
 	path = volumes
 	url = git@github.com:k8s-team/ansible-role-volumes.git
+[submodule "elasticsearch-singlenode"]
+	path = elasticsearch-singlenode
+	url = git@github.com:k8s-team/ansible-role-elasticsearch-singlenode.git
