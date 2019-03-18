@@ -37,3 +37,6 @@
 [submodule "prometheus"]
 	path = prometheus
 	url = git@github.com:k8s-team/ansible-role-prometheus.git
+[submodule "grafana"]
+	path = grafana
+	url = git@github.com:k8s-team/ansible-role-grafana.git
