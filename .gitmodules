@@ -28,3 +28,6 @@
 [submodule "volume-claim"]
 	path = volume-claim
 	url = git@github.com:k8s-team/ansible-role-volume-claim.git
+[submodule "fluentd"]
+	path = fluentd
+	url = git@github.com:k8s-team/ansible-role-fluentd.git
